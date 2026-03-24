@@ -1,17 +1,15 @@
 'use strict';
 
-//===================================================================
-//DEVO STAMPARE I NUMERI DA 1 A 100 E "SEGNALARE" I MULTIPLI DI 3 E 5
-//===================================================================
+console.log(`
+    PSEUDOCODICE
 
-//SE i numeri sono divisibili per entrambi stampa FIZZBUZZ
-
-//ALTRIMENTI SE il numero è un mutiplo di 3 stampa FIZZ
-
-//ALTRIMENTI SE il numero è un multiplo di 5 stampa BUZZ
-
-//ALTRIMENTI stampa il numero normale
-
+    PER OGNI NUMERO DA 1 A 100:
+      -SE il numero è multiplo di entrambi stampa FIZZBUZZ
+      -ALTRIMENTI SE il numero è un multiplo di 3 stampa FIZZ
+      -ALTRIMENTI SE il numero è un multiplo di 5 stampa BUZZ
+      -ALTRIMENTI stampa il numero
+      `
+)
 
 //LOGICA CICLO
 // Inizia il ciclo
