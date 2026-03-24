@@ -9,7 +9,7 @@ console.log(`
       -ALTRIMENTI SE il numero è un multiplo di 5 stampa BUZZ
       -ALTRIMENTI stampa il numero
       `
-)
+);
 
 //LOGICA CICLO
 // Inizia il ciclo
