@@ -25,7 +25,7 @@ for (let i = 1; i <= 100; i++) {
         //ALTRIMENTI SE solo il MODULO di 5 risulta 0 stampiamo BUZZ
     } else if (i % 5 === 0) {
         console.log(`BUZZ`);
-        //ALTRIMENTI stampiamo il numero normalmente
+        //ALTRIMENTI stampiamo il valore numerico
     } else {
         console.log(i);
     }
