@@ -19,10 +19,10 @@ for (let i = 1; i <= 100; i++) {
     //SE il MODULO di 15 (che è il numero più piccolo intero multiplo sia di 3 che di 5) è uguale a 0, stampiamo FIZZBUZZ
     if (i % 15 === 0) {
         console.log(`FIZZBUZZ`);
-        //ALTRIMENTI SE solo il MODULO di 3 risulta 0 stampiamo FIZZ
+        //ALTRIMENTI SE solo il MODULO di 3 risulta uguale a 0 stampiamo FIZZ
     } else if (i % 3 === 0) {
         console.log(`FIZZ`);
-        //ALTRIMENTI SE solo il MODULO di 5 risulta 0 stampiamo BUZZ
+        //ALTRIMENTI SE solo il MODULO di 5 risulta uguale a 0 stampiamo BUZZ
     } else if (i % 5 === 0) {
         console.log(`BUZZ`);
         //ALTRIMENTI stampiamo il valore numerico
