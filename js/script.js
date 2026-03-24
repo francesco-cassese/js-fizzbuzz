@@ -14,19 +14,28 @@
 
 
 //LOGICA CICLO
+// Inizia il ciclo
+// (Let i = 1) partiamo dal numero 1 | (i <= 100) continua fino ad arrivare al numero 100 | (i++) ad ogni giro aggiungi 1 alla i 
 for (let i = 1; i <= 100; i++) {
+
+    //SE il MODULO di 3 e 5 è uguale a 0, stampiamo FIZZBUZZ
     if (i % 3 === 0 && i % 5 === 0) {
         console.log(`FIZZBUZZ`);
+        //ALTRIMENTI SE solo il MODULO di 3 risulta 0 stampiamo FIZZ
     } else if (i % 3 === 0) {
         console.log(`FIZZ`);
+        //ALTRIMENTI SE solo il MODULO di 5 risulta 0 stampiamo BUZZ
     } else if (i % 5 === 0) {
         console.log(`BUZZ`);
+        //ALTRIMENTI stampiamo il numero normalmente
     } else {
         console.log(i);
     }
 }
 
+//============================================
 //VERSIONE CON TERNARI CONCATENATI
+//============================================
 
 // for (let i = 1; i <= 100; i++) {
 //     console.log(
