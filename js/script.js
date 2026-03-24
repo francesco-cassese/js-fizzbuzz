@@ -17,7 +17,7 @@ console.log(`
 for (let i = 1; i <= 100; i++) {
 
     //SE il MODULO di 3 e 5 è uguale a 0, stampiamo FIZZBUZZ
-    if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 15 === 0) {
         console.log(`FIZZBUZZ`);
         //ALTRIMENTI SE solo il MODULO di 3 risulta 0 stampiamo FIZZ
     } else if (i % 3 === 0) {
@@ -37,7 +37,7 @@ for (let i = 1; i <= 100; i++) {
 
 // for (let i = 1; i <= 100; i++) {
 //     console.log(
-//         i % 3 === 0 && i % 5 === 0 ? `FIZZBUZZ` :
+//         i % 15 === 0 ? `FIZZBUZZ` :
 //         i % 3 === 0 ? `FIZZ` :
 //         i % 5 === 0 ? `BUZZ` :
 //         i
